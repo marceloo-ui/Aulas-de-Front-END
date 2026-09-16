@@ -8,7 +8,7 @@
             "type": "firefox",
             "request": "launch",
             "name": "Open index.html",
-            "url": "file:///home/etternalize/aulas/aula2/atividade 1/index.html"
+            "url": "file:///home/etternalize/aulas/aula2/atividade 2/index.html"
         }
     ]
 }

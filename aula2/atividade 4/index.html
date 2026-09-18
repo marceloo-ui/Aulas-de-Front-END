@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Insights | Blog de Tecnologia e IA</title>
+    <!-- Estilos simples para deixar a estrutura visível -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            background-color: #2c3e50; /* Azul escuro */
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom: 5px solid #3498db; /* Destaque azul */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* NAV (Menu) */
+        nav ul {
+            list-style: none;
+            padding: 10px 0;
+            margin: 15px 0 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+
+        /* MAIN LAYOUT */
+        main {
+            display: flex;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+            gap: 30px; /* Espaço entre o conteúdo principal e a sidebar */
+        }
+
+        /* SECTION (Conteúdo Principal - Posts) */
+        section {
+            flex: 3; /* Ocupa mais espaço */
+        }
+        h2#categoria-ia {
+            color: #e74c3c; /* Vermelho para IA */
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        /* ARTICLE (Publicações) */
+        article {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 30px;
+            margin-bottom: 35px; /* Espaço entre os posts */
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        /* FIGURE & FIGCAPTION (Imagem e Legenda) */
+        figure {
+            margin: 20px 0;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            display: block; /* Garante que a imagem ocupe sua própria linha */
+        }
+        figcaption {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        /* ASIDE (Conteúdos Relacionados) */
+        aside {
+            flex: 1; /* Ocupa menos espaço */
+            background-color: #ecf0f1;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        aside h3 {
+            color: #2980b9; /* Azul para a sidebar */
+            margin-top: 0;
+        }
+
+        /* FOOTER (Informações do Blog) */
+        footer {
+            background-color: #34495e;
+            color: #bdc3c7;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        /* Estilos específicos para o desafio */
+        strong {
+            color: #2c3e50; /* Negrito mais escuro */
+        }
+        em {
+            color: #e74c3c; /* Ênfase em vermelho (para destacar termos) */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Tech Insights</h1>
+        <p>Seu portal sobre o futuro da Tecnologia e Inteligência Artificial.</p>
+    </header>
+
+    <!-- NAV (Menu Principal) -->
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#categoria-ia">IA</a></li>
+            <li><a href="#">Tecnologia Geral</a></li>
+            <li><a href="#">Sobre o Blog</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT AREA -->
+    <main>
+        
+        <!-- SECTION: Categorias (Onde os posts são agrupados) -->
+        <section id="categoria-ia">
+            <h2>🤖 Categoria: Inteligência Artificial</h2>
+
+            <!-- ARTICLE 1: Publicação sobre IA -->
+            <article>
+                <!-- 1. Título -->
+                <h3>Como a IA está Redefinindo o Mercado de Trabalho</h3>
+                
+                <!-- 2. Autor & 3. Data de publicação (Usando <time>) -->
+                <p><small>Por: João Silva | Publicado em: <time datetime="2024-08-15">15 de Agosto de 2024</time></small></p>
+
+                <!-- 4. Imagem & 5. Texto -->
+                <figure>
+                    <img src="https://via.placeholder.com/800x300?text=Imagem+IA" alt="Representação visual de redes neurais">
+                    <!-- 6. Link para "Leia mais" -->
+                    <figcaption>Figura 1: Redes Neurais artificiais em ação.</figcaption>
+                </figure>
+
+                <p>A Inteligência Artificial deixou de ser ficção científica e se tornou uma força motriz no mercado global. As automações, o aprendizado de máquina (Machine Learning) e as redes neurais estão transformando desde a saúde até o varejo. <em>É fundamental</em> que profissionais estejam atualizados para não serem deixados para trás.</p>
+                <p>O impacto é profundo: tarefas repetitivas são assumidas por algoritmos, liberando humanos para funções mais criativas e estratégicas. <strong style="color: #2c3e50;">A adaptação</strong> é a chave do sucesso na era da IA.</p>
+                
+                <a href="#" style="display: inline-block; margin-top: 15px; background-color: #3498db; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Leia mais &rarr;</a>
+            </article>
+
+            <!-- ARTICLE 2: Publicação sobre Tecnologia -->
+            <article>
+                <h3>O Boom do Computação Quântica</h3>
+                <p><small>Por: Maria Souza | Publicado em: <time datetime="2024-08-10">10 de Agosto de 2024</time></small></p>
+
+                <!-- Imagem (sem figura/figcaption para simplificar, mas mantendo a estrutura) -->
+                <img src="https://via.placeholder.com/600x250?text=Imagem+Quântica" alt="Representação de qubits em um circuito quântico">
+                
+                <p>A computação clássica atinge seus limites com problemas complexos, como a simulação molecular ou a otimização logística. É aí que entra o poder dos Qubits! Diferente dos bits tradicionais (0 ou 1), os qubits podem ser ambos ao mesmo tempo, permitindo um processamento exponencialmente mais rápido.</p>
+                <p>Para entender melhor, pense em como uma máquina quântica pode resolver problemas que levariam milhares de anos para um supercomputador tradicional. <strong style="color: #2c3e50;">É revolucionário!</strong></p>
+
+                <a href="#" style="display: inline-block; margin-top: 15px; background-color: #e74c3c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Saiba mais sobre Qubits &rarr;</a>
+            </article>
+
+             <!-- ARTICLE 3: Publicação Mista (IA + Tech) -->
+            <article>
+                <h3>Ética na IA: Quem é o Responsável pelo Algoritmo?</h3>
+                <p><small>Por: Pedro Costa | Publicado em: <time datetime="2024-08-01">01 de Agosto de 2024</time></small></p>
+
+                <!-- Imagem com Legenda -->
+                <figure>
+                    <img src="https://via.placeholder.com/750x300?text=Imagem+Ética+IA" alt="Mãos humanas interagindo com um circuito de IA">
+                    <figcaption>Figura 2: A interação humana é crucial para guiar a ética da Inteligência Artificial.</figcaption>
+                </figure>
+
+                <p>Com o poder crescente dos modelos preditivos, surge uma questão complexa: quando um carro autônomo toma uma decisão fatal, quem deve ser responsabilizado? O programador? O dono do veículo? Ou a própria IA?</p>
+                <p>A discussão sobre vieses algorítmicos (bias) é constante. Se os dados de treinamento são enviesados, o resultado será um sistema injusto. Por isso, <em style="font-size: 1.1em;">a transparência</em> do código se torna tão importante quanto sua performance.</p>
+                <a href="#" style="display: inline-block; margin-top: 15px; background-color: #2c3e50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Ler o debate completo &rarr;</a>
+            </article>
+
+        </section>
+
+        <!-- ASIDE: Conteúdos Relacionados -->
+        <aside>
+            <h3>🔗 Mais em Destaque</h3>
+            <ul>
+                <li><a href="#">[IA] O futuro do ChatGPT</a></li>
+                <li><a href="#">[Tech] 5 Gadgets que mudaram o mundo</a></li>
+                <li><a href="#">[Geral] Como aprender a programar rápido?</a></li>
+            </ul>
+
+            <h3 style="margin-top: 25px;">🔍 Tags Populares</h3>
+            <p>#InteligenciaArtificial • #MachineLearning • #ComputacaoQuantica • #Tecnologia</p>
+        </aside>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; <time datetime="2024">2024</time> Tech Insights Blog. Todos os direitos reservados.</p>
+        <!-- Informações do Blog (Contato/Redes) -->
+        <div style="margin-top: 10px;">
+            <strong>Siga-nos:</strong> <a href="#" style="color: #bdc3c7; margin: 0 10px;">Twitter</a> | 
+            <a href="#" style="color: #bdc3c7; margin: 0 10px;">LinkedIn</a> | 
+            Email: contato@techinsights.com
+        </div>
+    </footer>
+
+</body>
+</html>

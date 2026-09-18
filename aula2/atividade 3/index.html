@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site da Escola/Universidade</title>
+    <!-- Estilos simples para deixar a estrutura visível -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 10px 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            display: flex; /* Para organizar o conteúdo principal e a barra lateral */
+            gap: 30px;
+        }
+        section {
+            flex: 3; /* Ocupa mais espaço */
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        aside {
+            flex: 1; /* Ocupa menos espaço */
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        article {
+            border-bottom: 1px solid #ccc;
+            padding: 15px 0;
+            margin-bottom: 15px;
+        }
+        article:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Logo/Nome da Instituição</h1>
+        <!-- NAV (Navegação) -->
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT AREA -->
+    <main>
+        
+        <!-- SECTION: Cursos (Conteúdo Principal) -->
+        <section id="cursos">
+            <h2>📚 Nossos Cursos</h2>
+            
+            <!-- ARTICLE 1: Curso 1 -->
+            <article>
+                <h3>Curso de Programação Web</h3>
+                <p>Aprenda HTML, CSS e JavaScript do zero. Ideal para iniciantes!</p>
+            </article>
+
+            <!-- ARTICLE 2: Curso 2 -->
+            <article>
+                <h3>Introdução à Inteligência Artificial</h3>
+                <p>Entenda os conceitos básicos de Machine Learning e IA moderna.</p>
+            </article>
+
+            <!-- ARTICLE 3: Curso 3 -->
+            <article>
+                <h3>Gestão Financeira Pessoal</h3>
+                <p>Organize suas finanças, invista com inteligência e alcance seus objetivos.</p>
+            </article>
+        </section>
+
+        <!-- ASIDE: Eventos (Barra Lateral) -->
+        <aside id="eventos">
+            <h3>📅 Próximos Eventos</h3>
+            <ul>
+                <li>Seminário de IA - 15/08</li>
+                <li>Workshop de Web Dev - 22/08</li>
+                <li>Palestra sobre Finanças - 30/08</li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 Nome da Instituição. Todos os direitos reservados.</p>
+        <!-- Área de Contato no Rodapé -->
+        <div id="contato-footer">
+            <strong>Contato:</strong> (11) 98765-4321 | email@instituicao.edu.br
+        </div>
+    </footer>
+
+</body>
+</html>

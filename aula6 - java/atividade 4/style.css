@@ -1,0 +1,85 @@
+/* Configuração geral da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* O container principal da calculadora (estilo Cartão) */
+.Calculadora {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Título da Calculadora */
+.Calculadora h1 {
+    color: #2d3436;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Estilização padrão para inputs e select */
+.Calculadora input, 
+.Calculadora select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+/* Efeito quando o usuário clica para digitar/selecionar */
+.Calculadora input:focus, 
+.Calculadora select:focus {
+    border-color: #0984e3;
+    outline: none;
+}
+
+/* Botão de Calcular */
+.Calculadora button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Efeito ao passar o mouse por cima do botão */
+.Calculadora button:hover {
+    background-color: #00a884;
+}
+
+/* Efeito ao clicar no botão */
+.Calculadora button:active {
+    transform: scale(0.98);
+}
+
+/* Seção do Resultado */
+.Calculadora h2 {
+    margin-top: 25px;
+    color: #636e72;
+    font-size: 18px;
+}
+
+/* O número do resultado em destaque */
+#resultado {
+    color: #2d3436;
+    font-weight: bold;
+}

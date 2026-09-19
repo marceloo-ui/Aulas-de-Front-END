@@ -1,0 +1,110 @@
+/*=============
+Configurações gerais
+===============*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(171, 176, 180);
+    color: dimgray;
+
+}
+/*========
+Título
+==========*/
+h1{
+    text-align: center;
+    color: blue;
+    margin-bottom: 25px;
+}
+/*=========
+Formulário
+============*/
+form{
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(216, 223, 255);
+    border-radius: 0 4px 15px;
+}
+/*label
+*/
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: darkslategray
+}
+/*campo de texto*/
+input[type="text"],
+input[type="password"],
+textarea,
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+/*efeitos nos campos*/
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus{
+    outline: none;
+    border-color: aqua;
+    box-shadow: 0 0 5px;
+}
+/*radio e checkbox*/
+input[type="text"],
+input[type="password"],
+input[type="checkbox"]{
+    margin-right: 6px;
+    min-height: 8px;
+}
+/*
+textarea
+*/
+textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+/*
+select
+*/
+select{
+    cursor: pointer;
+    background-color: white;
+}
+/*botão*/
+button{
+    padding: 11px 25px;
+    margin-top: 15px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*botão enviar*/
+button[type="submit"]{
+    background-color: rgb(62, 98, 255);
+    color: white;
+}
+/*botão lipar*/
+button[type="reset"]{
+    background-color: rgb(235, 7, 7);
+    color: white;
+}
+/*efeito hover*/
+button[type="submit"]:hover{
+    background-color: rgb(7, 29, 153);
+}
+button[type="reset"]:hover{
+    background-color: rgb(170, 15, 15);
+}
